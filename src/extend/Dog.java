@@ -5,3 +5,4 @@ public class Dog extends Animals{
         System.out.println("看家");
     }
 }
+
