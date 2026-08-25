@@ -16,7 +16,7 @@ public class StreamDemo2 {
         ArrayList<String> list1=new ArrayList<>();
         Collections.addAll(list1,"a","b","c","d","e");
 
-        //Stream<String> stream1=list1.stream();
+        Stream<String> stream1=list1.stream();
         list1.stream().forEach(s-> System.out.println(s));
     }
 }
