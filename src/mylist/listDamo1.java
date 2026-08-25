@@ -8,7 +8,7 @@ public class listDamo1 {
         List<String> list=new ArrayList<>();
 
         list.add("aaa");
-
+        System.out.println("aaaa");
     }
 
 }
